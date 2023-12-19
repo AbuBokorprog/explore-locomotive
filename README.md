@@ -10,10 +10,14 @@ Locomotive ব্যবহার করার জন্য কয়েকটি �
 
 https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
 
+**Second**:
+You have to import the js code from LocomotiveScroll github.
+
 - **Second**: You have to import the js code from LocomotiveScroll github.
 
 https://github.com/locomotivemtl/locomotive-scroll
 
+**Example**:
 **Example**:
 
 ```javascript
@@ -45,13 +49,17 @@ tl.from("#page2 #box", {
 });
 ```
 
+```
+
 ## If you want to use Locomotive with Gsap
 
 - After importing css and js links, import the javascript code from locomotive scrollTrigger codePen.
 
 ```
+
 https://codepen.io/GreenSock/pen/ExPdqKy
-```
+
+````
 
 ```javascript
 gsap.registerPlugin(ScrollTrigger);
@@ -91,7 +99,7 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
 // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 ScrollTrigger.refresh();
-```
+````
 
 ### **Examples:**
 
