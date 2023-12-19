@@ -2,19 +2,29 @@
 
 ### If you want to use the Locomotive
 
+Locomotive ব্যবহার করার জন্য কয়েকটি জিনিস খেয়াল রাখতে হবে। স্ট্রাকচার ভালোভাবে ডিজাইন করতে হবে। সবগুলো পেজের parent হতে হবে main কন্টেইনার।
+
+আরো জানতে হলেঃ ```https://github.com/locomotivemtl/locomotive-scroll
+
+```
+
 - **First**: You have to link css and js links of locomotive in the index.html file.
 
 ```
+
 https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
+
 ```
 
 - **Second**: You have to import the js code from LocomotiveScroll github.
 
 ```
-https://github.com/locomotivemtl/locomotive-scroll
-```
 
-**example**:
+https://github.com/locomotivemtl/locomotive-scroll
+
+````
+
+### **Example**:
 
 ```javascript
 const scroll = new LocomotiveScroll({
@@ -43,7 +53,7 @@ tl.from("#page2 #box", {
     scrub: 2,
   },
 });
-```
+````
 
 ## If you want to use Locomotive with Gsap
 
