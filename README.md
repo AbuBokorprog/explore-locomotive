@@ -11,16 +11,14 @@ Locomotive ব্যবহার করার জন্য কয়েকটি �
 **First**: You have to link css and js links of locomotive in the index.html file.
 
 ```
-
-- https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
+https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
 
 ```
 
 **Second**: You have to import the js code from LocomotiveScroll github.
 
 ```
-
-- https://github.com/locomotivemtl/locomotive-scroll
+https://github.com/locomotivemtl/locomotive-scroll
 
 ````
 
