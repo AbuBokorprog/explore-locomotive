@@ -8,19 +8,13 @@ Locomotive ব্যবহার করার জন্য কয়েকটি �
 
 ```
 
-**First**: You have to link css and js links of locomotive in the index.html file.
-
-```
+**First**:
+-You have to link css and js links of locomotive in the index.html file.
 https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/
 
-```
-
-**Second**: You have to import the js code from LocomotiveScroll github.
-
-```
+**Second**:
+You have to import the js code from LocomotiveScroll github.
 https://github.com/locomotivemtl/locomotive-scroll
-
-````
 
 **Example**:
 
@@ -51,7 +45,7 @@ tl.from("#page2 #box", {
     scrub: 2,
   },
 });
-````
+```
 
 ## If you want to use Locomotive with Gsap
 
